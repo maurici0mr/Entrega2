@@ -1,0 +1,142 @@
+Entrega 2
+
+Variable: Acceso a educación (mujeres)
+
+# Importando data
+
+```{r}
+library(rio)
+link1="https://raw.githubusercontent.com/maurici0mr/Entrega2/master/97b2d636-2f59-42b8-ad7c-f812ccd62908_Data.csv"
+alfabe=import(link1)
+```
+
+```{r}
+link2="https://raw.githubusercontent.com/maurici0mr/Entrega2/master/3a2c77bd-46cc-4524-8c4c-bd59f6b74c80_Data.csv"
+secu=import(link2)
+```
+
+```{r}
+link3="https://raw.githubusercontent.com/maurici0mr/Entrega2/master/d01d85d0-f0ef-4d41-87ca-37502ae8f43c_Data.csv"
+dropout=import(link3)
+```
+
+```{r}
+link4="https://raw.githubusercontent.com/maurici0mr/Entrega2/master/f42bf117-004e-44a0-a4c8-fcd9e51e4bfd_Data.csv"
+graduation=import(link4)
+```
+
+# Limpieza
+
+```{r}
+library(stringr)
+```
+
+# % alfabetizacion mujeres
+
+```{r}
+alfabe$V1=NULL
+names(alfabe)=c("Pais","Alfabetizacion")
+alfabe=alfabe[-c(265:269), ]
+alfabe=alfabe[-c(1), ]
+
+alfabe$Alfabetizacion = as.numeric(alfabe$Alfabetizacion)
+
+alfabe[,]=lapply(alfabe[,], trimws,whitespace = "[\\h\\v]")
+
+write.csv(alfabe,"alfabe.csv", row.names = F)
+```
+
+# % inscripcion en secundaria mujeres
+
+```{r}
+secu$V1=NULL
+names(secu)=c("Pais","Secundaria")
+secu=secu[-c(265:269), ]
+secu=secu[-c(1), ]
+
+secu$Secundaria = as.numeric(secu$Secundaria)
+
+secu[,]=lapply(secu[,], trimws,whitespace = "[\\h\\v]")
+
+write.csv(secu,"secu.csv", row.names = F)
+```
+
+# % de deserción mujeres que deberian estar en secu
+
+```{r}
+dropout$V1=NULL
+names(dropout)=c("Pais","Desercion")
+dropout=dropout[-c(265:269), ]
+dropout=dropout[-c(1), ]
+
+dropout$Desercion = as.numeric(dropout$Desercion)
+
+dropout[,]=lapply(dropout[,], trimws,whitespace = "[\\h\\v]")
+
+write.csv(dropout,"dropout.csv", row.names = F)
+```
+
+# % graduacion educacion superior
+
+```{r}
+graduation$V1=NULL
+names(graduation)=c("Pais","Graduacion")
+graduation=graduation[-c(265:269), ]
+graduation=graduation[-c(1), ]
+
+graduation$Graduacion = as.numeric(graduation$Graduacion)
+
+graduation[,]=lapply(graduation[,], trimws,whitespace = "[\\h\\v]")
+
+write.csv(graduation,"graduation.csv", row.names = F)
+```
+
+# Importando data limpia
+
+```{r}
+lalfa="https://raw.githubusercontent.com/maurici0mr/Entrega2/master/alfabe.csv"
+
+lsecu="https://raw.githubusercontent.com/maurici0mr/Entrega2/master/secu.csv"
+
+lgrad="https://raw.githubusercontent.com/maurici0mr/Entrega2/master/graduation.csv"
+
+ldrop="https://raw.githubusercontent.com/maurici0mr/Entrega2/master/dropout.csv"
+
+```
+
+```{r}
+alfa=read.csv(lalfa,stringsAsFactors = F)
+sec=read.csv(lsecu,stringsAsFactors = F)
+grad=read.csv(lgrad,stringsAsFactors = F)
+drop=read.csv(ldrop,stringsAsFactors = F)
+```
+
+# merge
+
+```{r}
+educacion=merge(alfa,sec,all.x = T, all.y = T)
+
+educacion=merge(educacion,grad,all.x = T, all.y = T)
+
+educacion=merge(educacion,drop,all.x = T, all.y = T)
+
+```
+
+```{r}
+educacion[duplicated(educacion$Pais),]
+educacion[!complete.cases(educacion),]
+```
+
+```{r}
+educacion=educacion[-c(3:6,11,26:27,39:40,43,47,49,54,66,68,78:79,83:84,91,93,95:98,113,115,
+                         119,120,122:123,126,139,150,157,163:164,168,170,173,180,185,189,203,
+                         206,215:216,225,234:235,241,244:245,247:248,258,261:263), ]
+educacion=educacion[!educacion$Pais=="World",]
+```
+
+```{r}
+write.csv(educacion,"educacion.csv", row.names = F)
+```
+
+
+
