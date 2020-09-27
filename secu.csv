@@ -1,0 +1,264 @@
+"Pais","Secundaria"
+"Afghanistan","36.75185"
+"Albania","95.12266"
+"Algeria",NA
+"American Samoa",NA
+"Andorra",NA
+"Angola",NA
+"Antigua and Barbuda","109.34783"
+"Arab World","67.96692"
+"Argentina","110.15841"
+"Armenia","88.33324"
+"Aruba",NA
+"Australia","145.88804"
+"Austria","98.45524"
+"Azerbaijan",NA
+"Bahamas, The","66.72322"
+"Bahrain","101.80012"
+"Bangladesh","69.65406"
+"Barbados","109.46294"
+"Belarus","104.63758"
+"Belgium","174.67844"
+"Belize","81.74861"
+"Benin","48.92763"
+"Bermuda","81.4513"
+"Bhutan","86.84084"
+"Bolivia","90.67494"
+"Bosnia and Herzegovina",NA
+"Botswana",NA
+"Brazil","102.85615"
+"British Virgin Islands","96.92737"
+"Brunei Darussalam","97.45723"
+"Bulgaria","100.5635"
+"Burkina Faso","32.32059"
+"Burundi","42.89834"
+"Cabo Verde","99.95758"
+"Cambodia",NA
+"Cameroon","54.39524"
+"Canada","110.85762"
+"Caribbean small states","87.73061"
+"Cayman Islands",NA
+"Central African Republic",NA
+"Central Europe and the Baltics","101.262"
+"Chad","13.86375"
+"Channel Islands",NA
+"Chile","102.11846"
+"China",NA
+"Colombia","98.12564"
+"Comoros",NA
+"Congo, Dem. Rep.","35.98096"
+"Congo, Rep.",NA
+"Costa Rica","125.26578"
+"Cote d'Ivoire","35.06679"
+"Croatia","100.9624"
+"Cuba","99.12336"
+"Curacao",NA
+"Cyprus","99.40921"
+"Czech Republic","105.59939"
+"Denmark","133.36567"
+"Djibouti","45.32214"
+"Dominica","93.79074"
+"Dominican Republic","83.84121"
+"Early-demographic dividend","73.54184"
+"East Asia & Pacific","84.8824"
+"East Asia & Pacific (excluding high income)","83.04794"
+"East Asia & Pacific (IDA & IBRD)","82.90289"
+"Ecuador","106.1787"
+"Egypt, Arab Rep.",NA
+"El Salvador","75.63154"
+"Equatorial Guinea",NA
+"Eritrea","47.51117"
+"Estonia","110.78357"
+"Eswatini","76.03137"
+"Ethiopia","34.24992"
+"Euro area","107.9216"
+"Europe & Central Asia","104.0459"
+"Europe & Central Asia (excluding high income)","97.06663"
+"Europe & Central Asia (IDA & IBRD)","97.61373"
+"European Union","110.2271"
+"Faroe Islands",NA
+"Fiji",NA
+"Finland","157.45172"
+"Fragile and conflict affected situations","40.60077"
+"France","103.94109"
+"French Polynesia",NA
+"Gabon",NA
+"Gambia, The",NA
+"Georgia","100.79752"
+"Germany","96.38323"
+"Ghana","66.10124"
+"Gibraltar",NA
+"Greece","98.41417"
+"Greenland",NA
+"Grenada","110.70732"
+"Guam",NA
+"Guatemala","52.55503"
+"Guinea",NA
+"Guinea-Bissau",NA
+"Guyana",NA
+"Haiti",NA
+"Heavily indebted poor countries (HIPC)","36.57029"
+"High income","105.855"
+"Honduras","55.3637"
+"Hong Kong SAR, China","101.36701"
+"Hungary","103.34438"
+"IBRD only","83.59507"
+"Iceland","119.56522"
+"IDA & IBRD total","71.15125"
+"IDA blend","45.49112"
+"IDA only","43.91107"
+"IDA total","44.42472"
+"India","74.68529"
+"Indonesia","86.28915"
+"Iran, Islamic Rep.","82.97185"
+"Iraq",NA
+"Ireland","118.65204"
+"Isle of Man",NA
+"Israel","104.19111"
+"Italy","102.10385"
+"Jamaica","83.75576"
+"Japan",NA
+"Jordan",NA
+"Kazakhstan","112.23588"
+"Kenya",NA
+"Kiribati",NA
+"Korea, Dem. People's Rep.","93.30619"
+"Korea, Rep.","99.6558"
+"Kosovo",NA
+"Kuwait","100.95561"
+"Kyrgyz Republic","91.7016"
+"Lao PDR","60.68507"
+"Late-demographic dividend","89.2206"
+"Latin America & Caribbean","97.06834"
+"Latin America & Caribbean (excluding high income)","96.99152"
+"Latin America & Caribbean (IDA & IBRD)","97.05243"
+"Latvia","111.17415"
+"Least developed countries: UN classification","42.27985"
+"Lebanon",NA
+"Lesotho","69.65692"
+"Liberia","32.90857"
+"Libya",NA
+"Liechtenstein","101.72176"
+"Lithuania","105.38271"
+"Low & middle income","71.05004"
+"Low income","36.88194"
+"Lower middle income","67.26599"
+"Luxembourg","104.23725"
+"Macao SAR, China","93.80761"
+"Madagascar","38.29903"
+"Malawi","38.90274"
+"Malaysia","88.68295"
+"Maldives",NA
+"Mali","36.84055"
+"Malta","97.84511"
+"Marshall Islands","68.80642"
+"Mauritania","30.26522"
+"Mauritius","99.48449"
+"Mexico","104.09378"
+"Micronesia, Fed. Sts.",NA
+"Middle East & North Africa","76.6541"
+"Middle East & North Africa (excluding high income)","73.55652"
+"Middle East & North Africa (IDA & IBRD)","73.20255"
+"Middle income","76.49069"
+"Moldova","86.4638"
+"Monaco",NA
+"Mongolia",NA
+"Montenegro","93.505"
+"Morocco",NA
+"Mozambique","31.9455"
+"Myanmar",NA
+"Namibia",NA
+"Nauru",NA
+"Nepal","69.43692"
+"Netherlands","134.58789"
+"New Caledonia",NA
+"New Zealand","118.13917"
+"Nicaragua",NA
+"Niger","16.98628"
+"Nigeria","44.67198"
+"North America","99.2706"
+"North Macedonia","81.16415"
+"Northern Mariana Islands",NA
+"Norway","113.1611"
+"OECD members","105.5155"
+"Oman","102.40523"
+"Other small states","68.81824"
+"Pacific island small states",NA
+"Pakistan","34.89732"
+"Palau",NA
+"Panama","77.87238"
+"Papua New Guinea",NA
+"Paraguay",NA
+"Peru","97.38666"
+"Philippines","91.49514"
+"Poland","105.67675"
+"Portugal","116.9089"
+"Post-demographic dividend","105.4357"
+"Pre-demographic dividend","37.46912"
+"Puerto Rico","98.3506"
+"Qatar",NA
+"Romania","92.9454"
+"Russian Federation","100.9528"
+"Rwanda","39.39245"
+"Samoa","99.12769"
+"San Marino",NA
+"Sao Tome and Principe","86.90315"
+"Saudi Arabia","114.99628"
+"Senegal",NA
+"Serbia","97.38095"
+"Seychelles","84.36233"
+"Sierra Leone","36.52938"
+"Singapore",NA
+"Sint Maarten (Dutch part)",NA
+"Slovak Republic","91.4668"
+"Slovenia","111.00179"
+"Small states","72.52181"
+"Solomon Islands",NA
+"Somalia",NA
+"South Africa","108.75166"
+"South Asia","68.48566"
+"South Asia (IDA & IBRD)","68.48566"
+"South Sudan","7.66851"
+"Spain","124.56262"
+"Sri Lanka",NA
+"St. Kitts and Nevis","107.45463"
+"St. Lucia","88.12014"
+"St. Martin (French part)",NA
+"St. Vincent and the Grenadines","107.74027"
+"Sub-Saharan Africa","40.67442"
+"Sub-Saharan Africa (excluding high income)","40.67152"
+"Sub-Saharan Africa (IDA & IBRD)","40.67442"
+"Sudan","45.27237"
+"Suriname","88.63937"
+"Sweden","149.9778"
+"Switzerland","99.63999"
+"Syrian Arab Republic",NA
+"Tajikistan",NA
+"Tanzania","27.01023"
+"Thailand","118.22445"
+"Timor-Leste","74.37508"
+"Togo",NA
+"Tonga","102.3983"
+"Trinidad and Tobago",NA
+"Tunisia",NA
+"Turkey","101.45654"
+"Turkmenistan",NA
+"Turks and Caicos Islands",NA
+"Tuvalu","90.90909"
+"Uganda",NA
+"Ukraine",NA
+"United Arab Emirates",NA
+"United Kingdom","126.36829"
+"United States","98.17358"
+"Upper middle income","91.61376"
+"Uruguay",NA
+"Uzbekistan","91.28845"
+"Vanuatu","54.94925"
+"Venezuela, RB","94.48699"
+"Vietnam",NA
+"Virgin Islands (U.S.)",NA
+"West Bank and Gaza","89.92111"
+"World","74.94239"
+"Yemen, Rep.",NA
+"Zambia",NA
+"Zimbabwe",NA
